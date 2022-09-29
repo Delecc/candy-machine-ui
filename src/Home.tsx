@@ -533,7 +533,7 @@ export const MintPage = (props: HomeProps) => {
                     fontFamily: 'Main',
                     fontWeight: 'bold',
                     marginBottom: 10
-                }}>You are whitelisted!</Typography>}
+                }}>You are whitelisted but Mark not</Typography>}
 
                 <Container maxWidth="md">
                     <Paper style={{
@@ -568,7 +568,7 @@ export const MintPage = (props: HomeProps) => {
                                     fontFamily: 'Main',
                                     fontWeight: 'bold',
                                 }}>
-                                    Collection Name
+                                    Collection from Dubai
                                 </Typography>
 
                                         <Info type="price" amount={price ? isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel) : mintPrice}/>
